@@ -1,9 +1,5 @@
-/* html{
-    font-size: 62.5%;
-} */
+
 body{
-    /* background-color: #212121;
-    color: white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,16 +19,6 @@ h1{
     justify-content: center;
 }
 .calculator {
-    /* width: 24rem;
-    margin: 1rem;
-    border: 2px solid #ccc;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; */
 
     background-color: #fff;
     border-radius: 10px;
@@ -44,16 +30,6 @@ h1{
 
 
 #display {
-    /* width: 100%;
-    margin: 1rem;
-    padding: 0.5rem;
-    font-size: 1.8rem;
-    border: 1px solid #ccc;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
@@ -63,11 +39,7 @@ h1{
 }
 
 .divs {
-    /* display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 0.5rem;
-    width: 100%; */
-
+  
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
@@ -94,53 +66,3 @@ Button:hover{
     color: white;
 }
 
-
-/* @media (max-width : 320px) {
-    html {
-      font-size: 35%;
-    }
-  
-  
-  }
-  
-  
-  
-  @media (min-width : 320px) and (max-width : 480px) {
-    html {
-      font-size: 43.75%;
-    }
-  
-  
-  }
-  
-  @media (min-width : 481px) and (max-width : 768px) {
-    html {
-      font-size: 53.125%;
-    }
-  
-  }
-  
-  @media (min-width : 769px) and (max-width : 1023px) {
-    html {
-      font-size: 62.5%;
-    }
-  
-  
-  
-  }
-  
-  
-  @media (min-width : 1024px) and (max-width : 1200px) {
-    html {
-      font-size: 71.85%;
-    }
-  
-  }
-  
-  
-  @media (min-width : 1201px) {
-    html {
-      font-size: 77%;
-    }
-  
-  } */
