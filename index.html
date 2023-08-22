@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>MADE BY ADITYA GOEL</h1>
+    <div class="div">
+
+        <div class="calculator">
+            <input type="text" id="display">
+            <div class="divs">
+                <Button class="operator" onclick="clearDisplay()">C</Button>
+                <Button class="operator" onclick="appendToDisplay('+')">+</Button>
+                <Button class="operator" onclick="appendToDisplay('-')">-</Button>
+                <Button class="operator" onclick="appendToDisplay('*')">*</Button>
+                <Button onclick="appendToDisplay('7')">7</Button>
+                <Button onclick="appendToDisplay('8')">8</Button>
+                <Button onclick="appendToDisplay('9')">9</Button>
+                <Button class="operator" onclick="appendToDisplay('/')">/</Button>
+
+                <Button onclick="appendToDisplay('4')">4</Button>
+
+                <Button onclick="appendToDisplay('5')">5</Button>
+                <Button onclick="appendToDisplay('6')">6</Button>
+
+                <Button class="operator" onclick="calculateResult()">=</Button>
+
+
+                <Button onclick="appendToDisplay('1')">1</Button>
+
+                <Button onclick="appendToDisplay('2')">2</Button>
+
+                <Button onclick="appendToDisplay('3')">3</Button>
+                <Button onclick="appendToDisplay('0')">0</Button>
+
+
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
