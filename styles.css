@@ -95,7 +95,7 @@ Button:hover{
 }
 
 
-@media (max-width : 320px) {
+/* @media (max-width : 320px) {
     html {
       font-size: 35%;
     }
@@ -143,4 +143,4 @@ Button:hover{
       font-size: 77%;
     }
   
-  }
+  } */
